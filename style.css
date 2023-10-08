@@ -165,11 +165,28 @@ header {
 }
 
 /* appel par nom de balise */
+
+#logo {
+  font-family: "Lumanosimo", cursive;
+  font-size: 20px;
+  color: #4682b4;
+}
+
 header > nav {
   display: flex;
   justify-content: space-between;
   height: 100%;
   align-items: center;
+}
+
+header > nav > ul.liste > li > a.liens {
+  text-decoration: none;
+}
+
+a.liens {
+  font-weight: bold;
+  color: #4682b4;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* appel par classe */
