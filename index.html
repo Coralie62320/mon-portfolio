@@ -14,6 +14,9 @@
             let nav = document.querySelector("nav")
             nav.classList.toggle("open")
         }
+        function changeIcon(icon) {
+            icon.classList.toggle("fa-times")
+        }
     </script>
 </head>
 
@@ -26,7 +29,7 @@
         <nav>
             <!-- id = unique (1 seul par page ) -->
             <div id="logo">LOGO</div>
-            <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+            <i onclick="openMenu(); changeIcon(this)" class="fa-solid fa-bars" style="color: #395e9d;"></i>
             <ul class="liste">
                 <!-- plusieurs classes possibles -->
                 <li>
@@ -39,7 +42,6 @@
                     <a class="liens" href="#projets">Projets</a>
                 </li>
             </ul>
-            <i class="fa-solid fa-xmark"></i>
         </nav>
     </header>
     <!-- contenu principal changeant à chaque page -->
