@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>Mathieu | a-propos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Coralie LOUGEZ | Accueil</title>
     <script>
         function openMenu() {
             let nav = document.querySelector("nav")
             nav.classList.toggle("open")
+        }
+        function changeIcon(icon) {
+            icon.classList.toggle("fa-times")
         }
     </script>
 </head>
@@ -24,26 +29,37 @@
         <nav>
             <!-- id = unique (1 seul par page ) -->
             <div id="logo">LOGO</div>
-            <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+            <i onclick="openMenu(); changeIcon(this)" class="fa-solid fa-bars" style="color: #395e9d;"></i>
             <ul class="liste">
                 <!-- plusieurs classes possibles -->
                 <li>
                     <a class="liens" href="#a-propos">A propos</a>
                 </li>
                 <li>
-                    <a class="liens" href="#experiences">Expériences</a>
+                    <a class="liens" href="#competences">Compétences</a>
                 </li>
                 <li>
                     <a class="liens" href="#projets">Projets</a>
+                </li>
+                <li>
+                    <a class="liens" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!-- contenu principal changeant à chaque page -->
-    <main>
+    <main id="background-page-accueil">
+        <section id="accueil">
+            <div class="bloc-accueil">
+                <h1 class="titre-accueil">Coralie LOUGEZ</h1>
+                <br>
+                <p class="titre-accueil">Étudiante en formation Développeuse Web et Web Mobile</p>
+            </div>
+        </section>
         <section id="a-propos">A propos</section>
-        <section id="experiences">Expériences</section>
+        <section id="competences">Compétences</section>
         <section id="projets">projets</section>
+        <section id="contact">Contact</section>
     </main>
     <!-- notre pied de page -->
     <footer>
