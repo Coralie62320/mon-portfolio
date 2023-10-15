@@ -144,7 +144,7 @@ header > nav,
 main,
 footer {
   /* border-style: solid;
-  border-width: 2px;
+  border-width: 2px; */
   /* border-color: blue; */
   /* border-color: #4d4da5cc;
   border-color: #ffffff; */
@@ -231,18 +231,19 @@ section {
 
 /* Page Accueil */
 
-#background-page-accueil {
+#accueil {
   background-image: url("img/image_page_accueil.jpg");
-  height: 100vh;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .bloc-accueil {
   background-color: white;
-  width: 40%;
+  width: 30%;
   height: 20%;
-  margin-top: 20%;
-  margin-left: 30%;
+  margin-top: 15%;
+  margin-left: 35%;
   padding: 20px;
 }
 
@@ -254,4 +255,11 @@ section {
 .bloc-accueil p {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
+  font-weight: bold;
+}
+
+/* Page A propos */
+
+#a-propos {
+  background-color: #ff6b35;
 }
