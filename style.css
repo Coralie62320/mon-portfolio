@@ -240,26 +240,42 @@ section {
 
 .bloc-accueil {
   background-color: white;
-  width: 30%;
+  width: 50%;
   height: 20%;
   margin-top: 15%;
-  margin-left: 35%;
-  padding: 20px;
+  margin-left: 25%;
+  padding-top: 20px;
 }
 
 .bloc-accueil h1 {
   font-family: "Architects Daughter", cursive;
   font-size: 40px;
+  text-align: center;
 }
 
 .bloc-accueil p {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
 /* Page A propos */
 
 #a-propos {
   background-color: #ff6b35;
+}
+
+#a-propos h2 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#a-propos p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
 }
