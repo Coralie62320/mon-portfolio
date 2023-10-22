@@ -162,6 +162,7 @@ header {
   position: fixed;
   width: 100%;
   height: 5vh;
+  border: solid 1px black;
 }
 
 /* appel par nom de balise */
@@ -240,6 +241,7 @@ section {
 
 .bloc-accueil {
   background-color: white;
+  border: solid #1a659e 5px;
   width: 50%;
   height: 20%;
   margin-top: 15%;
@@ -327,9 +329,23 @@ section {
 
 footer {
   width: 100%;
-  height: 5vh;
+  height: 20vh;
+  border: solid 1px black;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
 }
 
 footer img {
-  height: 50px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Architects Daughter", cursive;
 }
