@@ -186,7 +186,7 @@ header > nav > ul.liste > li > a.liens {
 
 a.liens {
   font-weight: bold;
-  color: #4682b4;
+  color: #1a659e;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -260,6 +260,20 @@ section {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .bloc-accueil h1 {
+    font-size: 30px;
+  }
+
+  .bloc-accueil p {
+    font-size: 16px;
+  }
+
+  .bloc-accueil {
+    margin-top: 20%;
+  }
+}
+
 /* Page A propos */
 
 #a-propos {
@@ -273,9 +287,49 @@ section {
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
+  margin-top: 5%;
 }
 
 #a-propos p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: white;
+  width: 90%;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  #a-propos p {
+    margin-top: 5%;
+  }
+}
+
+/* Page Compétences */
+
+#competences {
+  background-color: #1a659e;
+}
+
+/* Page Projets */
+
+#projets {
+  background-color: #ff6b35;
+}
+
+/* Page Contact */
+
+#contact {
+  background-color: #1a659e;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 5vh;
+}
+
+footer img {
+  height: 50px;
 }
