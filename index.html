@@ -27,7 +27,9 @@
     <header>
         <nav>
             <!-- id = unique (1 seul par page ) -->
-            <div id="logo">LOGO</div>
+            <div id="logo">
+               CL
+            </div>
             <i onclick="openMenu(); changeIcon(this)" class="fa-solid fa-bars" style="color: #395e9d;"></i>
             <ul class="liste">
                 <!-- plusieurs classes possibles -->
@@ -93,16 +95,13 @@
                 <div class="outils">
                     <h2>Outils</h2>
                     <p>Graphisme : Illustrator, Canva, Figma</p>
-                    <br>
                     <p>Systèmes : Windows, GitHub</p>
-                    <br>
                     <p>Bureautique : Libre Office, Open Office</p>
                 </div>
             </div>
             <div class="langues">
                 <h2>Langues</h2>
                 <p>Français : langue maternelle</p>
-                <br>
                 <p>Anglais : A2</p>
             </div>
         </section>
@@ -111,6 +110,21 @@
 
         <section id="contact">
             <h2>Me contacter</h2>
+            <form>
+                <label for="fname">Nom et prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom et votre prénom">
+
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" placeholder="Titre de votre message">
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+            
+                <input type="submit" value="Envoyer" class="btn-envoyer">
+              </form>
         </section>
     </main>
     <!-- notre pied de page -->
