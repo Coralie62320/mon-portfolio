@@ -161,16 +161,15 @@ div#container {
 header {
   position: fixed;
   width: 100%;
-  height: 5vh;
+  height: 10vh;
   border: solid black 1px;
 }
 
 /* appel par nom de balise */
 
-#logo {
-  font-family: "Architects Daughter", cursive;
-  font-size: 40px;
-  color: #4682b4;
+#logo img {
+  height: 100px;
+  margin-top: 10px;
 }
 
 header > nav {
