@@ -225,7 +225,6 @@ section {
     top: 0;
     left: 0;
     background-color: lightgray;
-    height: 250px;
   }
 
   header > nav.open > ul.liste {

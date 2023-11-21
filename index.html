@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <title>Coralie LOUGEZ | Accueil</title>
     <!-- <script>
         function openMenu() {
@@ -26,13 +26,14 @@
 <div id="container">
     <!-- le header qui contient notre entête de site (logo, nav etc) -->
     <header>
-        <nav>
+        <nav id="nav">
             <!-- id = unique (1 seul par page ) -->
             <div id="logo">
               <a href="#accueil"><img src="img/Logo_Portfolio-transformed.png" alt=""></a>
             </div>
-            <i id="icon" onclick="openMenu(); changeIcon(this)" class="fa-solid fa-bars" style="color: #1a659e;"></i>
-            <ul class="liste">
+            <!-- <i id="ham-menu" onclick="openMenu(); changeIcon(this)" class="fa-solid fa-bars" style="color: #1a659e;"></i> -->
+            <i id="ham-menu" class="fa-solid fa-bars" style="color: #1a659e;"></i>
+            <ul id="nav-bar" class="liste">
                 <!-- plusieurs classes possibles -->
                 <li>
                     <a class="liens" href="#a-propos">A propos</a>
