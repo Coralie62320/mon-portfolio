@@ -224,13 +224,20 @@ section {
     flex-direction: column;
     top: 0;
     left: 0;
-    background-color: lightgray;
+    background-color: white;
   }
 
   header > nav.open > ul.liste {
     justify-content: space-around;
     flex-direction: column;
     display: flex;
+    background-color: #1a659e;
+    width: 100%;
+    align-items: center;
+  }
+
+  a.liens {
+    color: white;
   }
 
   #logo img {
