@@ -1,12 +1,5 @@
-// function openMenu() {
-//     let nav = document.querySelector("nav")
-//     nav.classList.toggle("open")
-// }
-// function changeIcon(icon) {
-//     icon.classList.toggle("fa-times")
-// }
-
-
+// Fonction ouverture / fermeture menu burger
+// Fermeture menu burger après click sur un lien
 let nav = document.querySelector("#nav");
 let hamMenuIcon = document.querySelector("#ham-menu");
 let navBar = document.querySelector("#nav-bar");
@@ -23,6 +16,8 @@ navLinks.forEach((navLinks) => {
         nav.classList.remove("open");
     });
 });
+
+
 
 
 
