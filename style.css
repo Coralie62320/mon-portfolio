@@ -139,6 +139,18 @@ table {
   scroll-behavior: smooth;
 }
 
+/* Correction hauteur 100% (100vh) sur mobile */
+:root {
+  --vh: 1vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
 /* mon commentaire  */
 header > nav,
 main,

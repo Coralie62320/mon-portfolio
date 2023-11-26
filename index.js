@@ -1,3 +1,13 @@
+// Correction hauteur 100% (100vh) sur mobile
+const appHeight = () => {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  };
+  window.addEventListener('resize', appHeight);
+  appHeight();
+
+
+
 // Fonction ouverture / fermeture menu burger
 // Fermeture menu burger après click sur un lien
 let nav = document.querySelector("#nav");
