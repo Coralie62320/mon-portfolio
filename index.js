@@ -21,20 +21,5 @@ navLinks.forEach((navLinks) => {
 
 
 
-// document.addEventListener("scroll", function() {
-//     console.log(scrollY);
-//         if(scrollY > 10) {
-//             let timeline = document.querySelector("#timeline");
-//             timeline.animation = translateLeft;
-            
-//         } else {
-//             let timeline = document.querySelector("#timeline");
-//             timeline.animation = translateRight;
-//         }
-// });
-
-
-
-
 
   
