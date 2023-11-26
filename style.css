@@ -277,6 +277,7 @@ section {
   text-align: center;
 }
 
+/* Medias queries bloc page accueil */
 @media screen and (max-width: 768px) {
   .bloc-accueil h1 {
     font-size: 30px;
@@ -606,7 +607,6 @@ section {
 
 #projets {
   background-color: #1a659e;
-  height: 1000px;
 }
 
 #projets h2 {
@@ -616,49 +616,52 @@ section {
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
-  margin-top: 5%;
-}
-
-#navigation {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 80px;
-  margin-top: 30px;
-}
-
-#navigation > li {
-  margin-left: 50px;
   margin-top: 20px;
 }
 
-#navigation > li > a > img {
-  width: 300px;
-  height: 200px;
+.ligne-un,
+.ligne-deux {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
-#navigation > li > h3 {
+.realisations > a > img {
+  width: 300px;
+  height: 200px;
+  border: solid 1px #ff6b35;
+}
+
+.realisations h3 {
   font-family: "Open Sans", sans-serif;
   color: white;
+  font-size: 16px;
   font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Redimensionnement image avec transform: scale(); */
+.zoom img {
+  transition-duration: 2s;
+  margin: 0 auto;
+  display: block;
+}
+
+.zoom img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
 }
 
 @media screen and (max-width: 768px) {
-  #navigation {
-    margin-left: 40px;
-  }
-
-  #navigation > li {
-    margin-left: 30px;
+  .realisations h3 {
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 576px) {
-  #navigation {
-    margin-left: 100px;
-    margin-top: 5px;
-  }
-
-  #navigation > li > a > img {
+  .realisations > a > img {
     width: 200px;
     height: 100px;
   }
