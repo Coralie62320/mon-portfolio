@@ -530,7 +530,7 @@ section {
 
 .timeline ul li:nth-child(odd) div {
   left: 45px;
-  /* animation: translateRight 2s ease-in; */
+  animation: translateRight 2s ease-in;
 }
 
 .timeline ul li:nth-child(odd) div::before {
@@ -541,7 +541,7 @@ section {
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
-  /* animation: translateLeft 2s ease-in; */
+  animation: translateLeft 2s ease-in;
 }
 
 .timeline ul li:nth-child(even) div::before {
