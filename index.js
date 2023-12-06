@@ -28,6 +28,7 @@ navLinks.forEach((navLinks) => {
 });
 
 
+// Page formation div translate left
 function reveal() {
     let reveals = document.querySelectorAll(".reveal");
     
@@ -45,6 +46,8 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
+
+// Page formation div translate right
 function revealDeux() {
     let revealsDeux = document.querySelectorAll(".reveal-2");
     for (let i = 0; i < revealsDeux.length; i++) {
