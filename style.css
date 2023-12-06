@@ -577,6 +577,28 @@ section {
   margin-bottom: 10px;
 }
 
+.reveal {
+  position: relative;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.reveal-2 {
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal-2.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 @media screen and (max-width: 768px) {
   .timeline ul li div {
     width: 300px;
